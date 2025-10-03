@@ -83,8 +83,6 @@ It follows a modular pipeline for **data processing, feature engineering, model 
 
 ## How to Run
 
-Open **Anaconda Prompt** (or VS Code terminal), activate the environment, then run:
-
 ```bash
 conda activate roadacc
 cd C:\Users\jl\Documents\02_DataScience_Course_2024-2025\nov24cds_road_accidents
