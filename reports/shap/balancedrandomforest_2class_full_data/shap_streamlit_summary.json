@@ -1,0 +1,470 @@
+[
+  {
+    "index": 24,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.195,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.030973149188600415
+      },
+      {
+        "feature": "cat__col_1",
+        "shap_value": -0.09723363841242069
+      },
+      {
+        "feature": "cat__senc_3",
+        "shap_value": 0.02620617204807507
+      },
+      {
+        "feature": "cat__belt_status_0",
+        "shap_value": -0.05512578546992169
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.12343073288862265
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": -0.17084213075187704
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.04687088608469704
+      },
+      {
+        "feature": "cat__catv_group_1",
+        "shap_value": 0.0371515745625219
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.081300964378217
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": -0.08832392448010808
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.24,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": -0.014340942360842195
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": -0.012801216577226637
+      },
+      {
+        "feature": "cat__prof_1",
+        "shap_value": -0.010693318246781491
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": -0.06013066560768335
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.1312190707180815
+      },
+      {
+        "feature": "cat__agg_catr_1_2",
+        "shap_value": -0.11726533381245992
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.07592092394821062
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.07920799284861754
+      },
+      {
+        "feature": "cat__belt_user_type_code_4",
+        "shap_value": -0.015369762680532613
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.225,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": -0.01150274590516573
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": -0.05108558046558617
+      },
+      {
+        "feature": "cat__dayofweek_1",
+        "shap_value": 0.0299027587982481
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": -0.022670691134242887
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.09273052987749014
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": -0.17841874785244222
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.06797253990773244
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.06937685739188745
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": -0.07085630811309035
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.31,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": -0.01496699789471064
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": -0.04052070193889812
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.11500539671131363
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.03991214669397443
+      },
+      {
+        "feature": "cat__catv_group_1",
+        "shap_value": -0.046881838462755634
+      },
+      {
+        "feature": "cat__catv_group_2",
+        "shap_value": -0.03847357135929174
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.07826020273597317
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": -0.06986368892463683
+      }
+    ]
+  },
+  {
+    "index": 97,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.62,
+    "explanation": [
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.02385676911270233
+      },
+      {
+        "feature": "cat__choc_4",
+        "shap_value": 0.08915057971308427
+      },
+      {
+        "feature": "cat__catu_1",
+        "shap_value": -0.017689611246351086
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.03027382917077429
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": -0.15003933844064857
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.0489634297914427
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.044180934451166234
+      }
+    ]
+  },
+  {
+    "index": 114,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.585,
+    "explanation": [
+      {
+        "feature": "cat__lum_1",
+        "shap_value": -0.016489226788344427
+      },
+      {
+        "feature": "cat__lum_2",
+        "shap_value": -0.022605347313039925
+      },
+      {
+        "feature": "cat__int_1",
+        "shap_value": 0.022939037010744467
+      },
+      {
+        "feature": "cat__prof_1",
+        "shap_value": -0.014006093528228993
+      },
+      {
+        "feature": "cat__prof_2",
+        "shap_value": -0.013097775785096813
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.042610144874945154
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": -0.19025745487929535
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.045072274688330666
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.036399412259235125
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.020782412170744613
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 0.955,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.03466582949943743
+      },
+      {
+        "feature": "cat__col_4",
+        "shap_value": 0.057129712794461995
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.029770146606143723
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.030855889204496962
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 0.89,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.04829359027460205
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.028306286550852953
+      },
+      {
+        "feature": "cat__circ_3",
+        "shap_value": 0.012693092041560524
+      },
+      {
+        "feature": "cat__obs_0",
+        "shap_value": -0.036562492382155115
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": -0.03337846086116409
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.024991085050907212
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.057508453206151576
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "cat__circ_1",
+        "shap_value": 0.024129904500136308
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.01648750121882588
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.014926009051903943
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.034332807905967475
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.03720282548776894
+      },
+      {
+        "feature": "cat__catv_group_1",
+        "shap_value": 0.0411963219877699
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.03487827222277561
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.015860317606657345
+      }
+    ]
+  },
+  {
+    "index": 150966,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.013644150564237957
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.03757953950248859
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.046431439532057174
+      },
+      {
+        "feature": "cat__catv_group_1",
+        "shap_value": 0.05615628097452013
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.035768730695540804
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.0225764745094754
+      }
+    ]
+  },
+  {
+    "index": 169950,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.03776313303231888
+      },
+      {
+        "feature": "cat__choc_4",
+        "shap_value": 0.024465704437904103
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.030521574369555344
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.06485739890996922
+      },
+      {
+        "feature": "cat__rush_hour_1",
+        "shap_value": 0.011521334890527155
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.030387235468445056
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.012732851198067503
+      }
+    ]
+  },
+  {
+    "index": 169846,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "cat__circ_1",
+        "shap_value": 0.06255358887262132
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.054875991631590106
+      },
+      {
+        "feature": "cat__dayofweek_2",
+        "shap_value": 0.011589772196159009
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.025747518335619772
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.03848566251494002
+      }
+    ]
+  }
+]

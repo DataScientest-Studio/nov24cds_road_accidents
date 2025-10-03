@@ -1,0 +1,590 @@
+[
+  {
+    "index": 24,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.195,
+    "explanation": [
+      {
+        "feature": "age <= 25.00",
+        "weight": 0.024814563908936615
+      },
+      {
+        "feature": "10.00 < hour <= 15.00",
+        "weight": 0.022041903811038602
+      },
+      {
+        "feature": "2.00 < nbv <= 3.00",
+        "weight": 0.00906732235440599
+      },
+      {
+        "feature": "obs=0",
+        "weight": -0.0025104344166834657
+      },
+      {
+        "feature": "season=3",
+        "weight": 0.0022267161902263
+      },
+      {
+        "feature": "senc=3",
+        "weight": -0.00202726619761362
+      },
+      {
+        "feature": "belt_status=2",
+        "weight": -0.0018933548035805824
+      },
+      {
+        "feature": "catv_group=1",
+        "weight": 0.0016525451848822138
+      },
+      {
+        "feature": "surf=0",
+        "weight": 0.0014943703430466803
+      },
+      {
+        "feature": "sexe=1",
+        "weight": 0.0012421896533842457
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.24,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.04017894579028942
+      },
+      {
+        "feature": "age <= 25.00",
+        "weight": 0.023384617589272846
+      },
+      {
+        "feature": "15.00 < hour <= 18.00",
+        "weight": -0.0072655653464849985
+      },
+      {
+        "feature": "vosp=0",
+        "weight": -0.003609705374238538
+      },
+      {
+        "feature": "agg_catr=5",
+        "weight": -0.0016405197651411638
+      },
+      {
+        "feature": "age_bin=0",
+        "weight": 0.0015978245204967705
+      },
+      {
+        "feature": "prof=3",
+        "weight": -0.0014008870604587053
+      },
+      {
+        "feature": "infra=1",
+        "weight": 0.0013367721238637276
+      },
+      {
+        "feature": "lum=1",
+        "weight": 0.001295351011872286
+      },
+      {
+        "feature": "catv_group=1",
+        "weight": 0.001208932243368926
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "case_type": "false_negatives",
+    "y_true": 1,
+    "predicted": 0,
+    "proba_positive": 0.225,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.038201017672394734
+      },
+      {
+        "feature": "10.00 < hour <= 15.00",
+        "weight": 0.021577646678627986
+      },
+      {
+        "feature": "25.00 < age <= 36.00",
+        "weight": 0.0050387638448415465
+      },
+      {
+        "feature": "situ=0",
+        "weight": -0.0040720984070187335
+      },
+      {
+        "feature": "plan=0",
+        "weight": 0.0026157068781786337
+      },
+      {
+        "feature": "obs=0",
+        "weight": -0.001607778924219833
+      },
+      {
+        "feature": "vosp=0",
+        "weight": -0.0014779595523439451
+      },
+      {
+        "feature": "infra=1",
+        "weight": -0.0014077994074455141
+      },
+      {
+        "feature": "catv_group=0",
+        "weight": 0.001401207415365985
+      },
+      {
+        "feature": "choc=6",
+        "weight": -0.0012278969256298757
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.31,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.03820768537236856
+      },
+      {
+        "feature": "10.00 < hour <= 15.00",
+        "weight": 0.020072521638839203
+      },
+      {
+        "feature": "36.00 < age <= 50.00",
+        "weight": -0.004138601840486888
+      },
+      {
+        "feature": "obs=0",
+        "weight": 0.0031569655475536364
+      },
+      {
+        "feature": "situ=0",
+        "weight": 0.0017076927086665437
+      },
+      {
+        "feature": "belt_status=1",
+        "weight": -0.0016619369049738354
+      },
+      {
+        "feature": "catu=0",
+        "weight": -0.0014934284982869497
+      },
+      {
+        "feature": "col=3",
+        "weight": 0.0010318032794213808
+      },
+      {
+        "feature": "rush_hour=0",
+        "weight": 0.0009340392245126605
+      },
+      {
+        "feature": "plan=0",
+        "weight": -0.0008386712527884886
+      }
+    ]
+  },
+  {
+    "index": 97,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.62,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.037055019881693387
+      },
+      {
+        "feature": "age <= 25.00",
+        "weight": 0.022368338300159104
+      },
+      {
+        "feature": "15.00 < hour <= 18.00",
+        "weight": -0.006887662959878909
+      },
+      {
+        "feature": "obsm=0",
+        "weight": 0.001549566906784129
+      },
+      {
+        "feature": "belt_user_type_code=2",
+        "weight": -0.0013299155774347936
+      },
+      {
+        "feature": "choc=2",
+        "weight": 0.001204946823833327
+      },
+      {
+        "feature": "agg_catr=3",
+        "weight": -0.0011733837952423497
+      },
+      {
+        "feature": "catu=1",
+        "weight": -0.0011269502957210842
+      },
+      {
+        "feature": "col=6",
+        "weight": 0.000969870139748422
+      },
+      {
+        "feature": "dayofweek=5",
+        "weight": -0.0009504926222794025
+      }
+    ]
+  },
+  {
+    "index": 114,
+    "case_type": "false_positives",
+    "y_true": 0,
+    "predicted": 1,
+    "proba_positive": 0.585,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.038338109513433444
+      },
+      {
+        "feature": "15.00 < hour <= 18.00",
+        "weight": -0.007699288592883506
+      },
+      {
+        "feature": "25.00 < age <= 36.00",
+        "weight": 0.003980489316096793
+      },
+      {
+        "feature": "int=0",
+        "weight": -0.0024400811925699433
+      },
+      {
+        "feature": "catv_group=0",
+        "weight": 0.0017657606340596038
+      },
+      {
+        "feature": "vosp=0",
+        "weight": -0.0016452664125630428
+      },
+      {
+        "feature": "surf=1",
+        "weight": 0.0014422612320860303
+      },
+      {
+        "feature": "choc=6",
+        "weight": -0.0012429049653031477
+      },
+      {
+        "feature": "season=1",
+        "weight": 0.0012137091120516432
+      },
+      {
+        "feature": "lum=2",
+        "weight": -0.001155309237098937
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 0.955,
+    "explanation": [
+      {
+        "feature": "10.00 < hour <= 15.00",
+        "weight": 0.024778009892405004
+      },
+      {
+        "feature": "2.00 < nbv <= 3.00",
+        "weight": 0.007792029876726455
+      },
+      {
+        "feature": "25.00 < age <= 36.00",
+        "weight": 0.006343256356439238
+      },
+      {
+        "feature": "plan=0",
+        "weight": 0.002893417893793959
+      },
+      {
+        "feature": "choc=0",
+        "weight": 0.0025757655175617927
+      },
+      {
+        "feature": "prof=0",
+        "weight": -0.0016234775136544828
+      },
+      {
+        "feature": "col=2",
+        "weight": 0.0016058518091147252
+      },
+      {
+        "feature": "vosp=0",
+        "weight": 0.0015368819063091965
+      },
+      {
+        "feature": "situ=0",
+        "weight": -0.0013659542252403747
+      },
+      {
+        "feature": "catv_group=0",
+        "weight": -0.00130228828976602
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 0.89,
+    "explanation": [
+      {
+        "feature": "nbv > 3.00",
+        "weight": 0.04427008930062622
+      },
+      {
+        "feature": "hour > 18.00",
+        "weight": -0.02474387377671566
+      },
+      {
+        "feature": "age <= 25.00",
+        "weight": 0.022690043281312872
+      },
+      {
+        "feature": "plan=3",
+        "weight": 0.0026213476986256573
+      },
+      {
+        "feature": "infra=2",
+        "weight": 0.0024854821656719725
+      },
+      {
+        "feature": "prof=3",
+        "weight": -0.002400844070315366
+      },
+      {
+        "feature": "int=5",
+        "weight": 0.0019119760884231348
+      },
+      {
+        "feature": "age_bin=0",
+        "weight": -0.001849817823334152
+      },
+      {
+        "feature": "obs=4",
+        "weight": -0.001599782512585029
+      },
+      {
+        "feature": "belt_status=0",
+        "weight": 0.001593524461065047
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "case_type": "true_positives",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.036762587065804465
+      },
+      {
+        "feature": "25.00 < age <= 36.00",
+        "weight": 0.005831804304235687
+      },
+      {
+        "feature": "obsm=0",
+        "weight": -0.00215263706066852
+      },
+      {
+        "feature": "catu=0",
+        "weight": 0.002079629564626676
+      },
+      {
+        "feature": "hour <= 10.00",
+        "weight": 0.002073652321314
+      },
+      {
+        "feature": "situ=0",
+        "weight": 0.001669915314541628
+      },
+      {
+        "feature": "int=2",
+        "weight": 0.001488841196942502
+      },
+      {
+        "feature": "atm=0",
+        "weight": -0.0014397812461211144
+      },
+      {
+        "feature": "vosp=0",
+        "weight": -0.0013991904579167523
+      },
+      {
+        "feature": "catv_group=1",
+        "weight": -0.0012940688346991906
+      }
+    ]
+  },
+  {
+    "index": 150966,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.03664858288523374
+      },
+      {
+        "feature": "25.00 < age <= 36.00",
+        "weight": 0.004390822221083161
+      },
+      {
+        "feature": "hour <= 10.00",
+        "weight": 0.0026999253384230077
+      },
+      {
+        "feature": "surf=0",
+        "weight": 0.002016866570530574
+      },
+      {
+        "feature": "int=1",
+        "weight": 0.0019550551175043515
+      },
+      {
+        "feature": "obsm=0",
+        "weight": 0.0017446620729157948
+      },
+      {
+        "feature": "catv_group=1",
+        "weight": -0.001665360548882162
+      },
+      {
+        "feature": "choc=1",
+        "weight": -0.001267499061062245
+      },
+      {
+        "feature": "age_bin=2",
+        "weight": 0.0010442510454322569
+      },
+      {
+        "feature": "infra=1",
+        "weight": -0.0010397432327590116
+      }
+    ]
+  },
+  {
+    "index": 169950,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "nbv > 3.00",
+        "weight": 0.04500370844826525
+      },
+      {
+        "feature": "age > 50.00",
+        "weight": -0.025189933308323767
+      },
+      {
+        "feature": "15.00 < hour <= 18.00",
+        "weight": -0.006479603438764237
+      },
+      {
+        "feature": "vosp=0",
+        "weight": 0.0016778069557203722
+      },
+      {
+        "feature": "atm=0",
+        "weight": -0.0016034344800227834
+      },
+      {
+        "feature": "obs=0",
+        "weight": -0.001334614803902741
+      },
+      {
+        "feature": "catu=0",
+        "weight": 0.0011487667335210337
+      },
+      {
+        "feature": "rush_hour=1",
+        "weight": -0.001127887208827537
+      },
+      {
+        "feature": "choc=2",
+        "weight": 0.001088322943708846
+      },
+      {
+        "feature": "senc=1",
+        "weight": -0.0010155669619842775
+      }
+    ]
+  },
+  {
+    "index": 169846,
+    "case_type": "high_risk",
+    "y_true": 1,
+    "predicted": 1,
+    "proba_positive": 1.0,
+    "explanation": [
+      {
+        "feature": "nbv <= 2.00",
+        "weight": -0.03740355066428736
+      },
+      {
+        "feature": "age > 50.00",
+        "weight": -0.027278211541001438
+      },
+      {
+        "feature": "surf=4",
+        "weight": 0.009299749541209507
+      },
+      {
+        "feature": "agg_catr=10",
+        "weight": -0.006966086529354517
+      },
+      {
+        "feature": "hour <= 10.00",
+        "weight": 0.005120959089236648
+      },
+      {
+        "feature": "infra=3",
+        "weight": -0.003889305544510868
+      },
+      {
+        "feature": "obs=0",
+        "weight": -0.003398243149783966
+      },
+      {
+        "feature": "atm=1",
+        "weight": -0.0032120861134117347
+      },
+      {
+        "feature": "season=0",
+        "weight": 0.0017030138914745853
+      },
+      {
+        "feature": "belt_status=0",
+        "weight": 0.0012920615701190361
+      }
+    ]
+  }
+]
