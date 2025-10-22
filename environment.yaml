@@ -1,0 +1,22 @@
+name: roadacc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - joblib
+  - imbalanced-learn
+  - shap
+  - jupyter
+  - ipykernel
+  - notebook
+  - pip
+  - pip:
+      - xgboost
+      - lightgbm
+      - catboost
