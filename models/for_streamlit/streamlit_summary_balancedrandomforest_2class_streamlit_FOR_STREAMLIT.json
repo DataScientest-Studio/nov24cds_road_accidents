@@ -1,0 +1,31 @@
+{
+  "model_path": "..\\models\\for_streamlit\\model_BalancedRandomForest_2class_streamlit_FOR_STREAMLIT.joblib",
+  "threshold": 0.49999999999999994,
+  "metrics": {
+    "severe_recall": 0.7339980233707343,
+    "severe_precision": 0.4620663153271849,
+    "severe_f1": 0.5671195957327344,
+    "auc": 0.8775856239614748,
+    "ap": 0.6231004997436841
+  },
+  "confusion_matrix": [
+    [
+      156749,
+      29397
+    ],
+    [
+      9151,
+      25251
+    ]
+  ],
+  "confusion_matrix_percent": [
+    [
+      84.20755750862227,
+      15.792442491377736
+    ],
+    [
+      26.600197662926572,
+      73.39980233707342
+    ]
+  ]
+}

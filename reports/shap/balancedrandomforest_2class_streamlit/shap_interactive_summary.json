@@ -1,0 +1,506 @@
+[
+  {
+    "index": 0,
+    "top_features": [
+      {
+        "feature": "num__hour",
+        "shap_value": 0.015890062237325198
+      },
+      {
+        "feature": "cat__lum_3",
+        "shap_value": 0.03275106067235072
+      },
+      {
+        "feature": "cat__situ_1",
+        "shap_value": 0.01822607519578084
+      },
+      {
+        "feature": "cat__obs_0",
+        "shap_value": 0.050564336164093775
+      },
+      {
+        "feature": "cat__obs_2",
+        "shap_value": 0.04567439231400534
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": 0.06476544912687589
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.03904065924769217
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": 0.09397410801588392
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.0573455245783914
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.022871665780934042
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx0.html"
+  },
+  {
+    "index": 1,
+    "top_features": [
+      {
+        "feature": "num__hour",
+        "shap_value": 0.02222960266207736
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.04546592685687354
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.07821430220609148
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.06463223361458492
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.05542913169264627
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.042439567313840736
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx1.html"
+  },
+  {
+    "index": 8,
+    "top_features": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.013551820427603464
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": 0.08416307970485346
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.05077222830527319
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.089428116643715
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.06245833671727203
+      },
+      {
+        "feature": "cat__season_2",
+        "shap_value": 0.0194339141818903
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.04706321633686974
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.06528586761910458
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx8.html"
+  },
+  {
+    "index": 9,
+    "top_features": [
+      {
+        "feature": "num__hour",
+        "shap_value": -0.015987252461406407
+      },
+      {
+        "feature": "cat__choc_1",
+        "shap_value": -0.025980884198878618
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.042265612335975554
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.09029917047576984
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.05590319373339736
+      },
+      {
+        "feature": "cat__age_bin_2.0",
+        "shap_value": -0.01425162246356837
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.05720657394380387
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.04797378285788619
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx9.html"
+  },
+  {
+    "index": 14,
+    "top_features": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.0171966591705831
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": 0.051130165619576874
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.03984851921352559
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.09024181984371285
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.05486635528625076
+      },
+      {
+        "feature": "cat__season_2",
+        "shap_value": 0.012302478590170385
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.048424803936756126
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.04718530438099634
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx14.html"
+  },
+  {
+    "index": 18,
+    "top_features": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.019190388331965503
+      },
+      {
+        "feature": "num__hour",
+        "shap_value": 0.012276255610657292
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.02035089721710965
+      },
+      {
+        "feature": "cat__sexe_1",
+        "shap_value": 0.0103050235315163
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.0578612425288468
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.09581957949471914
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": 0.20553475661830597
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.0923581980566641
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.0661779677953862
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.07622902414816228
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx18.html"
+  },
+  {
+    "index": 19,
+    "top_features": [
+      {
+        "feature": "cat__col_1",
+        "shap_value": 0.12887694848211362
+      },
+      {
+        "feature": "cat__surf_2",
+        "shap_value": 0.016851221515021594
+      },
+      {
+        "feature": "cat__senc_0",
+        "shap_value": -0.018220590148193827
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": -0.018958904339852554
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.04882667268236972
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.09541841895752305
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.029485746178750362
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": -0.02459743785833615
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx19.html"
+  },
+  {
+    "index": 27,
+    "top_features": [
+      {
+        "feature": "num__hour",
+        "shap_value": 0.05303581300140621
+      },
+      {
+        "feature": "cat__col_6",
+        "shap_value": 0.02771478499215827
+      },
+      {
+        "feature": "cat__obs_0",
+        "shap_value": 0.08574891267163787
+      },
+      {
+        "feature": "cat__obs_1",
+        "shap_value": -0.022368703867332744
+      },
+      {
+        "feature": "cat__obsm_0",
+        "shap_value": 0.09549398212818569
+      },
+      {
+        "feature": "cat__obsm_2",
+        "shap_value": 0.02566665019281683
+      },
+      {
+        "feature": "cat__choc_4",
+        "shap_value": -0.03596712899310074
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": -0.03253187323074773
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.030743751918796094
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": -0.02494535164289423
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx27.html"
+  },
+  {
+    "index": 56,
+    "top_features": [
+      {
+        "feature": "num__age",
+        "shap_value": 0.03176582507583174
+      },
+      {
+        "feature": "cat__atm_7",
+        "shap_value": 0.016756870690152775
+      },
+      {
+        "feature": "cat__circ_1",
+        "shap_value": -0.07727137050692498
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": -0.04666589434875255
+      },
+      {
+        "feature": "cat__belt_status_0",
+        "shap_value": 0.025153559591076333
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.08797174860749463
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": -0.06182294497435948
+      },
+      {
+        "feature": "cat__age_bin_5.0",
+        "shap_value": 0.0241391832841305
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.052013333618754
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.039063022295930325
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx56.html"
+  },
+  {
+    "index": 113844,
+    "top_features": [
+      {
+        "feature": "num__age",
+        "shap_value": 0.08752737955771048
+      },
+      {
+        "feature": "cat__col_5",
+        "shap_value": 0.06155847541180744
+      },
+      {
+        "feature": "cat__circ_3",
+        "shap_value": 0.05093421901076389
+      },
+      {
+        "feature": "cat__catu_2",
+        "shap_value": 0.057592955183186995
+      },
+      {
+        "feature": "cat__sexe_2",
+        "shap_value": 0.06863565105142541
+      },
+      {
+        "feature": "cat__dayofweek_5",
+        "shap_value": 0.05598896966835438
+      },
+      {
+        "feature": "cat__agg_catr_1_1",
+        "shap_value": 0.07704655289729459
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.10686084590222995
+      },
+      {
+        "feature": "cat__age_bin_3.0",
+        "shap_value": 0.0771976514697274
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.07276063318083269
+      }
+    ],
+    "force_html": "..\\reports\\shap\\balancedrandomforest_2class_streamlit\\interactive\\force_plot_idx113844.html"
+  },
+  {
+    "index": 151324,
+    "top_features": [
+      {
+        "feature": "num__age",
+        "shap_value": 0.04884834855056194
+      },
+      {
+        "feature": "cat__col_5",
+        "shap_value": 0.025923707261157447
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.03127643842623725
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.05404302103404418
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.09188970979135638
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": 0.20283130643756375
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.09586288020664159
+      },
+      {
+        "feature": "cat__age_bin_1.0",
+        "shap_value": 0.0420692273506105
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.06498357592706723
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.05837511834809316
+      }
+    ],
+    "force_html": null
+  },
+  {
+    "index": 208731,
+    "top_features": [
+      {
+        "feature": "num__nbv",
+        "shap_value": 0.01998409174819371
+      },
+      {
+        "feature": "cat__lum_3",
+        "shap_value": 0.07688583101626117
+      },
+      {
+        "feature": "cat__col_1",
+        "shap_value": 0.1451711522108427
+      },
+      {
+        "feature": "cat__circ_2",
+        "shap_value": 0.021854546885977204
+      },
+      {
+        "feature": "cat__belt_status_-1",
+        "shap_value": 0.03430695857008271
+      },
+      {
+        "feature": "cat__belt_status_1",
+        "shap_value": 0.06495799241036342
+      },
+      {
+        "feature": "cat__agg_catr_1_3",
+        "shap_value": 0.15313986752202324
+      },
+      {
+        "feature": "cat__agg_catr_2_4",
+        "shap_value": 0.09612903043690241
+      },
+      {
+        "feature": "cat__belt_user_type_code_1",
+        "shap_value": 0.04879735063598559
+      },
+      {
+        "feature": "cat__belt_user_type_code_2",
+        "shap_value": 0.05487651189670121
+      }
+    ],
+    "force_html": null
+  }
+]
